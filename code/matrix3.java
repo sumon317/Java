@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class matrix {
+public class matrix3 {
     int arr[][];
     int m, n;
 
-    matrix(int mm, int nn) {
+    matrix3(int mm, int nn) {
         m = mm;
         n = nn;
         arr = new int[m][n];
@@ -48,7 +48,7 @@ public class matrix {
         System.out.println("Enter the number of columns (n):");
         int n = scanner.nextInt();
 
-        matrix matrix = new matrix(m, n);
+        matrix3 matrix = new matrix3(m, n);
         matrix.input();
         matrix.display();
 
